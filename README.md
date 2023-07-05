@@ -11,4 +11,4 @@ This Fleet-ifies:
 1. Log into Rancher as an admin user.
 2. Select the `local` cluster from Explore Cluster.
 3. In the upper-right hand, select the `Import YAML` file.
-4. Copy the contents of (gitrepo.yaml)[./gitrepo.yaml] into the box and click `Okay`.
+4. Copy the contents of [gitrepo.yaml](./gitrepo.yaml) into the box and click `Okay`.
