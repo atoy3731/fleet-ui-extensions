@@ -1,0 +1,9 @@
+defaultNamespace: cattle-ui-plugin-system
+
+labels:
+  app: ui-extensions-crds
+
+helm:
+  repo: https://charts.rancher.io
+  chart: ui-plugin-operator-crd
+  releaseName: ui-plugin-operator-crd
