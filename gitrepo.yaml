@@ -6,7 +6,6 @@ metadata:
 spec:
   repo: https://github.com/atoy3731/fleet-ui-extensions.git
   branch: main
-  clientSecretName: private-key
   targets:
   - name: local
     clusterSelector: {}
