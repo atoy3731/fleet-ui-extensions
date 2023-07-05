@@ -1,0 +1,18 @@
+defaultNamespace: carbide-stigatron-system
+
+labels:
+  app: stigatron-ui
+
+helm:
+  repo: https://rancherfederal.github.io/carbide-charts/
+  chart: stigatron-ui
+  releaseName: stigatron-ui
+  values:
+    global:
+      cattle:
+        systemDefaultRegistry: rgcrprod.azurecr.us
+
+dependsOn:
+  - selector:
+      matchLabels:
+        app: ui-extensions-operator

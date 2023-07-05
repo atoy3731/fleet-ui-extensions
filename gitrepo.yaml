@@ -13,3 +13,5 @@ spec:
   paths:
   - "./crds"
   - "./operator"
+  - "./repo"
+  - "./stigatron-ui"
