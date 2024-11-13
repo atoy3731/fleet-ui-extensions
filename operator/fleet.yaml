@@ -7,6 +7,7 @@ helm:
   repo: https://charts.rancher.io
   chart: ui-plugin-operator
   releaseName: ui-plugin-operator
+  takeOwnership: true
 
 dependsOn:
   - selector:
