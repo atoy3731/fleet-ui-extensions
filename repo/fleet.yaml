@@ -3,6 +3,9 @@ defaultNamespace: cattle-ui-plugin-system
 labels:
   app: ui-extensions-repo
 
+helm:
+  takeOwnership: true
+
 kustomize:
   dir: ./resources
 
