@@ -7,3 +7,4 @@ helm:
   repo: https://charts.rancher.io
   chart: ui-plugin-operator-crd
   releaseName: ui-plugin-operator-crd
+  takeOwnership: true
